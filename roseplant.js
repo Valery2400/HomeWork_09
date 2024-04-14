@@ -13,7 +13,7 @@ class Plant{
         this.age=age;
     }
     grow(){
-        this.height += 10;
+        this.height = this.height + 10;
             }
 }
 class Rose extends Plant{
