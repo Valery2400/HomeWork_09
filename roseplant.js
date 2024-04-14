@@ -25,10 +25,11 @@ class Rose extends Plant{
 const tylip = new Plant(40,1);
 console.log(tylip);
 
-const flower1 = new Rose(100,2,33)
-console.log(flower1);
+const whiteRose = new Rose(100,2,33)
+console.log(whiteRose);
 
 tylip.grow();
+whiteRose.grow();
 
 console.log(tylip);
-console.log(flower1);
+console.log(whiteRose);
